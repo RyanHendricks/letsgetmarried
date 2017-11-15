@@ -1,25 +1,40 @@
-LetsGetMarried.nyc
+# LetsGetMarried.NYC
 
-Wedding Officiant services
-Legally submitted via existing official paper license 
-Registered on the blockchain… 
+## Wedding Officiant services
+### Legally submitted via existing official paper license 
+### Registered on the blockchain… 
 
-Two participants (Spouse 1 and Spouse 2)
-One or more witnesses
-Need existing digital IDs (link out to create one if needed)
+**Who?**
+- 2+ Individuals (Spouses)
+- 1+ Witnesses (Witness)
 
-All 3+ Digital IDs agree that the ceremony has taken place, all sign the contract, officiant submits it, it’s considered executed, ethereum paid, confirmed on blockchain. The contract has no end date assumed. 
+**All Spouses and Witnesses will need to use a digital ID**
+*Need existing digital IDs (link out to create one if needed)*
 
-(Kind of like FAFSA submissions? User 1 logs in and signs, User 2 logs in and signs, User 3 logs in and signs, then I submit it as the officiant?)
+**How?**
 
-Note: currently, only two-partner relationships are recognized by NYC, but let’s build this so it can support multiple partner relationships in the future (e.g. don’t limit to two on the back end, we’ll do that on the front end only for now).
+All Persons sign transaction to instantiate smart contract using Digital IDs
+This represents the consensus agreement that the ceremony has taken place
+After all digital signatures are added the officiant executes the smart contract.
+The contract is considered official when confirmed on blockchain shortly thereafter.
+There is no end date for the contract.
 
-What are we registering? 
+
+Note:
+Currently, only two-partner relationships are recognized by NYC,
+but the contract is built so it can support multiple partner relationships
+in the future (e.g. don’t limit to two on the back end, we’ll do that on the front end only for now).
+
+**What?**
 
 Text:
 Spouse 1 Digital ID public key
 Spouse 2 Digital ID public key
+
 Witness Digital ID public key (note: may be multiple)
+
+Officiant Digital ID
+
 Wedding Date
 Wedding Location
 City Office with which it’s registered (e.g., NY City Clerk)
@@ -37,4 +52,7 @@ Not in scope: family contracts, vows, definition of marriage, finance, budgeting
 
 Maybe in scope, later: divorce (spousal Digital ID public keys used to end the contract); widowing (not sure what happens to Digital IDs on death, maybe a single ID can be used to initiate this? Will need more thought on this.)
 
-
+## Structures
+- Spouse
+- Witness
+- 
